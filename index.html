@@ -1,2 +1,30 @@
-<!doctype html><meta charset="utf-8"><title>SnapUI updates</title>
-<p>This page hosts SnapUI's automatic updates. Nothing to see here.</p>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Install SnapUI</title>
+<style>
+:root{--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--ink2:#6e6e73;--code:#f0f0f3;--edge:rgba(0,0,0,.08);--accent:#0a84ff}
+@media (prefers-color-scheme:dark){:root{--bg:#111214;--card:#1c1d20;--ink:#f5f5f7;--ink2:#a1a1a6;--code:#26272b;--edge:rgba(255,255,255,.1)}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+main{max-width:620px;margin:0 auto;padding:56px 16px}
+.head{display:flex;align-items:center;gap:16px;margin-bottom:28px}.head img{width:72px;height:72px}
+h1{font-size:30px;margin:0;line-height:1.1}.sub{color:var(--ink2);margin:4px 0 0}
+.card{background:var(--card);border:1px solid var(--edge);border-radius:16px;padding:22px;margin-bottom:16px}
+h2{font-size:17px;margin:0 0 8px}p{margin:0 0 10px}ol{margin:0;padding-left:20px}li{margin:4px 0}
+.cmd{display:flex;gap:8px;align-items:stretch;margin:12px 0 4px}
+code{font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+.cmd code{flex:1;background:var(--code);border-radius:10px;padding:12px;overflow-x:auto;white-space:nowrap}
+button{border:0;border-radius:10px;background:var(--accent);color:#fff;font:600 14px -apple-system,system-ui,sans-serif;padding:0 16px;cursor:pointer;min-width:76px}
+.muted{color:var(--ink2);font-size:14px}a{color:var(--accent)}
+</style></head><body><main>
+<div class="head"><img src="icon.png" alt=""><div><h1>SnapUI</h1><p class="sub">Screenshots that go straight to Claude. Free, for macOS 15 or later.</p></div></div>
+<div class="card"><h2>Install (recommended)</h2>
+<p>Open <b>Terminal</b> (in Applications → Utilities), paste this line and press Return:</p>
+<div class="cmd"><code id="c">curl -fsSL https://sprouthouse.github.io/snapui-updates/install.sh | bash</code><button id="b">Copy</button></div>
+<p class="muted">It downloads the latest SnapUI, checks it, puts it in Applications and opens it. No security warning, and SnapUI keeps itself up to date after that.</p></div>
+<div class="card"><h2>Or download the disk image</h2>
+<p><a href="download/SnapUI.dmg">SnapUI.dmg</a>. Drag SnapUI into Applications. macOS will say it can't check it for malware, because SnapUI isn't sold through Apple:</p>
+<ol><li>Click <b>Done</b> on that message.</li><li>Open <b>System Settings → Privacy &amp; Security</b>.</li><li>Scroll down and click <b>Open Anyway</b> next to SnapUI, then confirm.</li></ol></div>
+<p class="muted">Everything SnapUI captures stays on your Mac until you send it.</p>
+</main><script>
+document.getElementById('b').onclick=async e=>{try{await navigator.clipboard.writeText(document.getElementById('c').textContent);e.target.textContent='Copied'}catch{e.target.textContent='Select it'}setTimeout(()=>e.target.textContent='Copy',1600)}
+</script></body></html>
