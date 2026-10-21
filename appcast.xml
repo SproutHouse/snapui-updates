@@ -3,6 +3,19 @@
     <channel>
         <title>SnapUI</title>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Wed, 21 Oct 2026 01:55:08 -0400</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>SnapUI 1.1.1: holding ⌥D now asks for the microphone first instead of doing nothing, and text you type stays with a screenshot when it goes back to the edge.</p>
+]]></description>
+            <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI-1.1.1.zip" length="4386763" type="application/octet-stream" sparkle:edSignature="yRi4nMDYyXAjqYj8vAW+W2jLuxcfVncPr5PqLP2FwygTs4LDKumjh8C4r8PPSWzXAXPm3tYw4iwTzMujOHVzBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI3-2.delta" sparkle:deltaFrom="2" length="366122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="/OZvsWW57etvHcR1zcmCucPc4bqSqi7a3nGa5K+qoqSD5zrVAsCkpwQVF4E/SxpWYFY+C8BcorgJEE8mFUWaCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Wed, 21 Oct 2026 00:44:32 -0400</pubDate>
             <sparkle:version>2</sparkle:version>
