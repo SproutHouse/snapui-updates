@@ -25,8 +25,11 @@ codesign --verify --deep --strict "$TMP/SnapUI.app" || { echo "The download look
 
 # Applications needs an admin; otherwise the Applications folder in your home folder.
 if [ ! -w "$DEST" ]; then DEST="$HOME/Applications"; mkdir -p "$DEST"; fi
-osascript -e 'tell application id "com.sprouthouse.snap" to quit' >/dev/null 2>&1 || true
+# Any SnapUI already running closes first, even one that's stuck (a first open that macOS
+# held back leaves one hanging, and Finder then says SnapUI "is not responding").
 pkill -x SnapUI 2>/dev/null || true
+sleep 1
+pkill -9 -x SnapUI 2>/dev/null || true
 rm -rf "$DEST/SnapUI.app"
 ditto "$TMP/SnapUI.app" "$DEST/SnapUI.app"
 echo "SnapUI is installed in $DEST. Opening it…"
