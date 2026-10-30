@@ -3,6 +3,23 @@
     <channel>
         <title>SnapUI</title>
         <item>
+            <title>1.1.13</title>
+            <pubDate>Fri, 30 Oct 2026 18:30:49 -0400</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>SnapUI 1.1.13: steadier with Tap to click. The cards on the edge stay put while a shot is open large, and a light tap can no longer open and close it over and over.</p>
+]]></description>
+            <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI-1.1.13.zip" length="5163954" type="application/octet-stream" sparkle:edSignature="LULXCQ6TqOCW//3ThS7M92Xm4tz/qbZMLHqUb2yfWtivV+2mWmy0VCC6bHQiUbE97GP1zXRdJX2DEAbc746HCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI15-14.delta" sparkle:deltaFrom="14" length="573594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kIeVvQndpxN6ZVCYzzDMRPvHzmWUyxuq8hBTMskP2mGJJ23GVgUimspC4EBJ79S8Jns5HQH8P6DlBumFvQoMAA=="/>
+                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI15-13.delta" sparkle:deltaFrom="13" length="606138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="7OMP31KEx/9WgMw94lagJlLoAv68ysYRrFWefLAefJitWaCnaFxdnZkrxse3o6HS62rt9D0/aZPfj4XyfpeyBA=="/>
+                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI15-12.delta" sparkle:deltaFrom="12" length="735914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="x4bJKp/hR7rDp9WQXUarkr8rHxUUhvTp2MVFZFJBj+Idv2rapDsNlyASo71jy0T1K4CQn3fINrL7uNNvX3+kDg=="/>
+                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI15-11.delta" sparkle:deltaFrom="11" length="752542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Tq09Y86qR54eYVR/zr83yRL4UTRpwlY/XD9PyksPK0SqttUUvyv0PtC1x7eM9F7dhUmAsxsz841EPQ+qjV+gBw=="/>
+                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI15-10.delta" sparkle:deltaFrom="10" length="757994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="TKEojVX7lea9At9t4OcMUV6aJdcIbkoCOhWgg9ON9u/6bESFxOEDAdlQWguSku8/Q2Zq7r0YdLALdtQPsEkkCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1.12</title>
             <pubDate>Wed, 28 Oct 2026 01:42:52 -0400</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -34,23 +51,6 @@
                 <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI13-10.delta" sparkle:deltaFrom="10" length="637602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WGjqk+sy3yRHZQE+B6NI/xtZo2VdPL0gB25DKyHbEdOUhYtYi3vnvA3y80SYksiCzHvpN9dDuC0jPJicwqCfAQ=="/>
                 <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI13-9.delta" sparkle:deltaFrom="9" length="671838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZIbNsZylp3EVTFkqCIav7VxgZnPw7sliYKolj86gU/wr/eErMm3PP6OiYthdWJMA0chkGhhm1EFHNTpZsTo1Cw=="/>
                 <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI13-8.delta" sparkle:deltaFrom="8" length="789338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4+pwmUFBEH4bXvhC0mCHXDDOWlpcmwGCP+00cnged4jGrv945DvhCUhdNZuKNSPEL5Qp26QL+kQqYa04hc/qCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.1.10</title>
-            <pubDate>Thu, 22 Oct 2026 03:06:21 -0400</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.1.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>SnapUI 1.1.10: zoom in to mark things precisely. Pinch, or ⌘+ / ⌘− / ⌘0, with the zoom level showing as you go; the whole shot is still what's sent.</p>
-]]></description>
-            <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI-1.1.10.zip" length="5122451" type="application/octet-stream" sparkle:edSignature="oLED0niYvsF1tLzgpEJnUGrfvw/Yk9/N5Z57lF7TNUvRFBu4OFauVK3ltOjPHzw4v0x+pcNV88XhU0tKWOzGDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI12-11.delta" sparkle:deltaFrom="11" length="449846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="w6RxAmPSi+wHbjDuMYJABxcolAyb4mJlEg3llN7uagHC5fzhdC40qwMWmSZ7V4UHDQzDMbHXc7GUerri3KgyDg=="/>
-                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI12-10.delta" sparkle:deltaFrom="10" length="447518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="25W6GKoO6t/mL1jf4oYNutK1nMMR653Nj+qFTRbK6xnCLcenGtkJE1OPwI+VoMTiiSEktF0JEhE0IB4b6RGiAw=="/>
-                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI12-9.delta" sparkle:deltaFrom="9" length="523102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YtUNfiWyL89eox5k8qtjw2tOzvX97hSYGj8CrbMnexZzdcQR/XLIolazyAkH2EGs3dhRtovTRoiHg3v25FBXBw=="/>
-                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI12-8.delta" sparkle:deltaFrom="8" length="692918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LzGEYzN+DU7/vzu/G7R6VMUDWIckaVK/Li7MTApNYqowz1/yYIFkgmT7yb6Sy4SMmdYN14JZ5JbrORumZgAxCg=="/>
-                <enclosure url="https://sprouthouse.github.io/snapui-updates/SnapUI12-7.delta" sparkle:deltaFrom="7" length="953142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862320" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="51Rsqhv2JdTSdm+ED0iz1zSxuvEWwnzxGvKftG+FMgxOkVYHdgKzisw94SlhASNmdtk2rpKB+NBbGeIjy/FqDg=="/>
             </sparkle:deltas>
         </item>
     </channel>
